@@ -309,3 +309,11 @@ header ul {
   text-align: center;
   padding: 32px 0;
 }
+
+.works{
+  width: 50%;
+  height: 20%;
+  overflow-y: scroll;
+  scrollbar-color: red;
+  scrollbar-width: thin;
+}
