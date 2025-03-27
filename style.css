@@ -15,6 +15,7 @@ img{
 .background-darkbrown{
   position: relative;
   z-index: -1000;
+  vertical-align: bottom;
 }
 
 .icon{
@@ -144,20 +145,42 @@ header ul {
   right: 160px;
   color: white;
   font-size: 24px;
+  font-family: Yu Mincho;
 }
-
-.skill{
-  position: absolute;
-  bottom: -240px;
-  right: 16px;
-  z-index: -10000px;
-}
-
 
 /* main */
 .background-brown-1{
   position: relative;
   z-index: -1000;
+  vertical-align: bottom;
+}
+
+.skill{
+  position: absolute;
+  top: 784px;
+  font-size: 36px;
+  color: white;
+  left: 32px;
+  font-family: Yu Mincho;
+}
+
+.skills{
+  position: absolute;
+  display: flex;
+  width: 8%;
+  height: 8%;
+  top: 832px;
+  margin: 0 100px;
+}
+
+.skill-1{
+  margin: 0 8px 0 64px;
+}
+
+.skill-2{
+  font-size: 36px;
+  color: rgb(172, 114, 66);
+  font-family: Yu Mincho;
 }
 
 .main-profiles{
@@ -169,14 +192,32 @@ header ul {
 
 .main-name{
   font-size: 64px;
+  text-align: center;
+  font-family: Ms PGothic;
+  margin: 24px 0;
+}
+
+.name{
+  color: rgb(172, 114, 66);
 }
 
 .container{
   font-size: 24px;
+  text-align: center;
+  font-family: Yu Mincho;
+}
+
+.hr-1{
+  border-top: 2px solid white;
+  margin: 24px 120px;
+  width: 60%;
 }
 
 .main-profile{
   font-size: 24px;
+  list-style: none;
+  text-align: center;
+  font-family: YuGothic;
 }
 
 .myphoto{
@@ -197,13 +238,14 @@ header ul {
   color: white;
   text-align: center;
   font-size: 48px;
+  font-family: Ms PGothic;
 }
 
 .containers-1{
   position: relative;
   display: inline-block;
   margin: 1.5em 0;
-  padding: 7px 10px;
+  padding: 16px 10px;
   min-width: 120px;
   max-width: 100%;
   color: black;
@@ -211,6 +253,8 @@ header ul {
   background: #eee;
   border-radius: 15px;
   left: 32px;
+  text-align: center;
+  font-family: Yu Mincho;
 }
 
 .containers-1:before{
@@ -240,6 +284,8 @@ header ul {
   background: #eee;
   border-radius: 15px;
   right: -640px;
+  text-align: center;
+  font-family: Yu Mincho;
 }
 
 .containers-2:before{
