@@ -306,13 +306,58 @@ header ul {
 .service-1{
   color: white;
   font-size: 48px;
-  margin: 0 64px;
+  margin: 32px 64px;
+  font-family: Ms PGothic;
+}
+
+.services-2 {
+  position: relative;
+  margin: 32px 24px 72px;
+  padding: 32px 80px;
+  border: solid 3px white;
+  border-radius: 8px;
+  width: 46%;
+  float: left;
+  background-image: url(img/backgroud-pc.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.services-2 .service-2 {
+  position: absolute;
+  display: inline-block;
+  top: -32px;
+  left: 32px;
+  padding: 0 8px;
+  line-height: 1;
+  font-size: 48px;
+  background: rgb(252, 231, 213);
+  color: rgb(255, 158, 88);
+  font-weight: bold;
+  font-family: Ms PGothic;
+}
+
+.services-2 .priceall {
+  margin: 0; 
+  padding: 0;
+}
+
+.price{
+  font-size: 64px;
+  font-family: Ms PGothic;
+  font-weight: 32px;
+}
+
+.prices{
+  font-family: Yu Mincho;
 }
 
 .service-flow{
   color: white;
   font-size: 48px;
   margin: 0 64px;
+  padding: 64px 0 16px;
+  font-family: Ms PGothic;
 }
 
 .flowmain{
@@ -323,10 +368,18 @@ header ul {
   display: flex;
 }
 
-.number{
+.number-1{
   color: white;
   font-size: 48px;
-  margin: 0 200px;
+  margin: 16px 100px 0;
+  font-family: Ms PGothic;
+}
+
+.number-2{
+  color: white;
+  font-size: 48px;
+  margin: 16px 400px 0;
+  font-family: Ms PGothic;
 }
 
 .flow{
@@ -336,12 +389,19 @@ header ul {
   color: black;
   background: #eee;
   background-image: url(img/PC.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
   background-color: rgba(255, 255, 255, 0.51);
   background-blend-mode: lighten;
   border-top: solid 5px #d48845;
   box-shadow: 0 3px 5px #805d46;
   font-size: 24px;
   width: 50%;
+}
+
+.flow-1{
+  font-family: Yu Mincho;
+  font-size: 24px;
 }
 
 .flow .flow-1{
@@ -353,7 +413,8 @@ header ul {
   color: white;
   font-size: 48px;
   text-align: center;
-  padding: 32px 0;
+  padding: 64px 0;
+  font-family: Ms PGothic;
 }
 
 .works{
